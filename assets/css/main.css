@@ -725,26 +725,18 @@ section,
   border-bottom: 2px solid var(--accent-color);
 }
 
-.hero .social-links {
-  margin-top: 25px;
-}
-
-.hero .social-links a {
-  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
-  color: var(--default-color);
-  font-size: 14px;
-  width: 40px;
-  height: 40px;
+.hero a {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+  transition: 0.4s;
   border-radius: 50px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 20px;
-  transition: 0.3s;
 }
 
-.hero .social-links a:hover {
-  background-color: var(--accent-color);
+.hero a:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
 @media (max-width: 768px) {
